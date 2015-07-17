@@ -1,5 +1,21 @@
 <?php
 
+// ACF Includes Nonsense
+
+add_filter('acf/settings/path', 'my_acf_settings_path');
+function my_acf_settings_path( $path ) {
+    $path = get_stylesheet_directory() . '/lib/advanced-custom-fields-pro/';
+    return $path;
+}
+ 
+add_filter('acf/settings/dir', 'my_acf_settings_dir');
+function my_acf_settings_dir( $dir ) {
+     $dir = get_stylesheet_directory_uri() . '/lib/advanced-custom-fields-pro/';
+    return $dir;
+}
+
+include_once locate_template('/lib/advanced-custom-fields-pro/acf.php' );
+
 add_action('after_setup_theme', 'blankslate_setup');
 function blankslate_setup(){
 load_theme_textdomain('blankslate', get_template_directory() . '/languages');

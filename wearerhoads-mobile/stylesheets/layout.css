@@ -1,3 +1,5 @@
+/* @override http://wearetherhoads.dev/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
+
 /* @override 
 	http://wearetherhoads.com.s147445.gridserver.com/wp-content/themes/wearerhoads/stylesheets/layout.css
 	http://wearetherhoads.com.s147445.gridserver.com/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
@@ -1411,4 +1413,37 @@ button.minimal:active,
 	width: 100%!important;
 }
 
+}
+
+#info-page.mobile {
+  text-align: left;
+  padding: 15px;
+}
+
+#info-page.mobile .contact {
+  margin-bottom: 20px;
+}
+
+
+#info-page.mobile .contact a {
+  text-decoration: none;
+  border: 0;
+}
+
+#info-page.mobile .contact .column {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#info-page.mobile .representation .column {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#info-page.mobile .representation .column p {
+  margin: 0;
+}
+
+#info-page.mobile .contact .column:last-child {
+  border: none;
 }
