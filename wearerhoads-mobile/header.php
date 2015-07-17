@@ -27,6 +27,8 @@
 <script src="<?php bloginfo('stylesheet_directory'); ?>/javascripts/jquery.isotope.min.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/javascripts/jquery.cookie.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/javascripts/app.js"></script>
+<link href="//cdn.symbolset.com/0942bee84b5836fb3357d1f81c0e0c40e5db2705/symbolset.css" rel="stylesheet">
+
 
 <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico">
 <link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/apple-touch-icon.png">

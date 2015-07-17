@@ -1,5 +1,9 @@
 /* @override http://wearetherhoads.dev/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
 
+/* @override http://wearetherhoads.dev/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
+
+/* @override http://wearetherhoads.dev/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
+
 /* @override 
 	http://wearetherhoads.com.s147445.gridserver.com/wp-content/themes/wearerhoads/stylesheets/layout.css
 	http://wearetherhoads.com.s147445.gridserver.com/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
@@ -191,10 +195,8 @@ body li ul {
 
 #main li{
 	display: block;
-	font-family: 'Trade Gothic W01 Cn 18', "monospace";
+	font-family:'Avenir LT W01_65 Medium';
 	font-size: 12px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 	line-height: 1;
 	margin-bottom: 10px;
 }
@@ -1415,15 +1417,23 @@ button.minimal:active,
 
 }
 
-#info-page.mobile {
+#info-page.mobile,
+#clients-main {
   text-align: left;
   padding: 15px;
+  font-family:'Avenir LT W01_65 Medium';
 }
 
 #info-page.mobile .contact {
   margin-bottom: 20px;
+  font-family:'Avenir LT W01_65 Medium';
 }
 
+#info-page.mobile .main {
+  font-family:'CaslonClassico W00';
+  font-size: 17px;
+  line-height: 1.5;
+}
 
 #info-page.mobile .contact a {
   text-decoration: none;
@@ -1444,6 +1454,17 @@ button.minimal:active,
   margin: 0;
 }
 
-#info-page.mobile .contact .column:last-child {
+#info-page.mobile .contact .column:last-child,
+#info-page.mobile .representation .column:last-child {
   border: none;
+}
+
+#clients-main .column {
+  float: right;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#clients-main .column li {
+  margin-bottom: 3px;
 }
