@@ -13,6 +13,8 @@ $query_images_args = array(
 ?>
 <div id="front" class="grid index isotope wrapper">
 <img id="loading" src="<?php bloginfo('stylesheet_directory'); ?>/images/loading.gif" />
+<?php include locate_template('snippets/featured--gallery.php' ); ?>
+
 <?php
 $query_images = new WP_Query( $query_images_args );
 $images = array();
