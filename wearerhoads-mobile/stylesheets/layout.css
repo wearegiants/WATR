@@ -4,6 +4,8 @@
 
 /* @override http://wearetherhoads.dev/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
 
+/* @override http://wearetherhoads.dev/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
+
 /* @override 
 	http://wearetherhoads.com.s147445.gridserver.com/wp-content/themes/wearerhoads/stylesheets/layout.css
 	http://wearetherhoads.com.s147445.gridserver.com/wp-content/themes/wearerhoads-mobile/stylesheets/layout.css */
@@ -361,7 +363,8 @@ body li ul {
 
 #front.grid .item {
 	display: block;
-	width: 50%;
+	width: 49%;
+	float: left;
 }
 
 #front.grid .item.on {
@@ -1404,7 +1407,6 @@ button.minimal:active,
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 
-
 #front .item.description {
 	margin: 20px;
 	width: 660px;
@@ -1467,4 +1469,13 @@ button.minimal:active,
 
 #clients-main .column li {
   margin-bottom: 3px;
+}
+
+#front.grid {
+  position: relative;
+}
+
+#front.grid .item{
+  width: 49.95%!important;
+  margin: 0;
 }
